@@ -1,0 +1,25 @@
+.headerContainer {
+
+  .headerContent {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 9fr;
+    justify-items: center;
+    align-items: center;
+    box-shadow: -1px -10px 14px 2px;
+
+    .mainLogoContainer {
+      height: 70px;
+      width: 70px;
+
+      .mainLogo {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .mainHeadingContainer {
+      font-size: 2em;
+    }
+  }
+}

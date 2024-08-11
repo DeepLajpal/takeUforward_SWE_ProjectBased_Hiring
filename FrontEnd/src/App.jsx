@@ -1,3 +1,5 @@
+import Header from "./components/Header"
+import Home from "./pages/Home"
 import "./styles/App.module.scss"
 
 function App() {
@@ -6,7 +8,8 @@ function App() {
     <>
      <div className="rootContainer">
         <div className="rootContent">
-          Hello World
+          <Header/>
+          <Home/>
         </div>
      </div>
     </>
