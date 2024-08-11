@@ -4,7 +4,11 @@ function App() {
 
   return (
     <>
-     <div>Hello World</div>
+     <div className="rootContainer">
+        <div className="rootContent">
+          Hello World
+        </div>
+     </div>
     </>
   )
 }
