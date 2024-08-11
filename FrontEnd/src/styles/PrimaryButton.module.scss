@@ -1,0 +1,22 @@
+.popupBtnContainer {
+  text-align: center;
+  margin: 1em;
+
+  .popupBtn {
+    color: white;
+    border: none;
+    padding: 1em 2.5em;
+    border-radius: 1.5em;
+    background: #2c2c2c;
+    cursor: pointer;
+    transition: box-shadow 1s;
+  }
+
+  .popupBtn:hover{
+    box-shadow: 2px 2px 20px 1px #2c2c2c;
+  }
+
+  .popupBtn:active{
+    background: #414141;
+  }
+}
