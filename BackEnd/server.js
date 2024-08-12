@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'yourpassword', // replace with your MySQL root password
+  password: 'deeplajpal', 
   database: 'bannerDB'
 });
 
