@@ -1,7 +1,7 @@
 import styles from "../styles/Header.module.scss";
 import TUF_LOGO from "../Assets/TUF_LOGO.png"
 
-const Header = () => {
+const Header = ({mainHeading}) => {
   return (
     <div className={styles.headerContainer}>
         <div className={styles.headerContent}>
@@ -9,7 +9,7 @@ const Header = () => {
                 <img className={styles.mainLogo} src={TUF_LOGO} alt="" />
             </div>
             <div className={styles.mainHeadingContainer}>
-                <p className={styles.mainHeading}>Project Based Hiring Challenge</p>
+                <p className={styles.mainHeading}>{mainHeading}</p>
             </div>
         </div>
     </div>

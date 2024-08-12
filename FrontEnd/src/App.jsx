@@ -8,7 +8,7 @@ function App() {
     <>
      <div className="rootContainer">
         <div className="rootContent">
-          <Header/>
+          <Header mainHeading = "Project Based Hiring Challenge"/>
           <Home/>
         </div>
      </div>
