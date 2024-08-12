@@ -1,16 +1,14 @@
-import { useState } from "react";
 import styles from "../styles/Banner.module.scss"
-import { RxCross2 } from "react-icons/rx";
 import PrimaryButton from "./primaryButton";
+import ReverseTimer from "./ReverseTimer";
 
 const Banner = () => {
-    const [timerMinutes, setTimerMinutes] = useState(0);
-    const [timerSeconds, setTimerSeconds] = useState(30);
+
     return (
         <div className={styles.bannerContainer}>
             <div className={styles.bannerContent}>
                 <div className={styles.bannerTimerContainer}>
-                    <p className={styles.bannerTimer}>{timerMinutes}:{timerSeconds}</p>
+                    <ReverseTimer/>
                 </div>
                 <div className={styles.bannerTextContainer}>
                     <p className={styles.closeBtn}> 🚀Launch Your Career with takeUforward! 🚀 New InternShip Oportunity for 2026 passout</p>

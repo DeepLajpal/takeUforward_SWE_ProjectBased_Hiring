@@ -1,5 +1,4 @@
 import Banner from "../components/Banner.jsx";
-import PrimaryButton from "../components/primaryButton";
 import styles from "../styles/Home.module.scss";
 
 const Home = () => {
