@@ -8,6 +8,7 @@ const ReverseTimer = () => {
   const [timerMinutes, setTimerMinutes] = useState(59);
   const [timerSeconds, setTimerSeconds] = useState(30);
 
+
   const handleTimer = () => {
     setTimerSeconds((prevSeconds) => {
       if (prevSeconds === 59) {
