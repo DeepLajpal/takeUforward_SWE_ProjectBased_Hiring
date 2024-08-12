@@ -1,9 +1,9 @@
 import styles from "../styles/PrimaryButton.module.scss"
 
-const PrimaryButton = () => {
+const PrimaryButton = ({btnText}) => {
   return (
     <div className={styles.popupBtnContainer}>
-            <button className={styles.popupBtn}>Popup</button>
+            <button className={styles.popupBtn}>{btnText}</button>
     </div>
   )
 }
